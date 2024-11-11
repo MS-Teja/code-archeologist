@@ -96,13 +96,14 @@
 
 6. **Start the Backend Server**
     ```
-    npm start
+    node app.mjs
     ```
 
 ### Frontend Setup
 1. **Navigate to Frontend Directory**
     ```
-    npm start
+    cd ..
+    cd frontend
     ```
 
 2. **Install Dependencies**
@@ -113,6 +114,19 @@
 3. **Start the Frontend Development Server**
     ```
     npm run dev
+    ```
+
+### Ollama Setup
+1. Install ollama
+
+2. Install an embedding model from ollama. For example, let's use nomic-embed-text
+    ```
+    ollama pull nomic-embed-text
+    ```
+
+3. Start the ollama server
+    ```
+    ollama serve
     ```
 
 ## Usage
